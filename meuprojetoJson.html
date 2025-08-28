@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang=pt-BR>
+<head>
+    <meta charset=UTF-8>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+    <title>Visualizar Objeto JSON</title>
+</head>
+<body> <script>
+    let meuprojson = {
+    "nome": "Eduardo",
+    "idade": 21,
+    "endereco": {
+        "rua": "padreinacio",
+        "numero": 1400,
+    }}
+    document.write(JSON.stringify(meuprojson,null,2));
+    </script>
+</body>
+</html>
